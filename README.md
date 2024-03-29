@@ -1,5 +1,7 @@
 # ysyx-sdb-tui-client
-A simple c++ `socket.io` client for communicating with `ysyx-sdb-tui` server. 
+A simple c++ `socket.io` client for communicating with `ysyx-sdb-tui` server.
+
+> You can install `ysyx-sdb-tui` plugin in the marketplace of VS Code. Or see [ysyx-sdb-tui](https://github.com/CSerht/ysyx-sdb-tui-plugin)
 
 ![ysyx-sdb-tui](images/vscode-sdb-tui.png)
 
