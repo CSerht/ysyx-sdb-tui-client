@@ -3,7 +3,9 @@ A simple c++ `socket.io` client for communicating with `ysyx-sdb-tui` server.
 
 > You can install `ysyx-sdb-tui` plugin in the marketplace of VS Code. Or see [ysyx-sdb-tui](https://github.com/CSerht/ysyx-sdb-tui-plugin)
 
-![ysyx-sdb-tui](images/vscode-sdb-tui.png)
+<p align="center">
+  <img src="images/vscode-sdb-tui2.png" />
+</p>
 
 When you use sdb in NEMU or NPC for debugging, it can highlight the specific line in the disassembly file and source file. It greatly enhances debugging efficiency.
 
@@ -102,6 +104,10 @@ Then **clean all** `build` directory and **rebuild**:
 
 1. Open VS Code and install the `ysyx-sdb-tui` plugin in the marketplace.
 
+<p align="center">
+  <img src="images/vscode-plugin.png" />
+</p>
+
 2. Type `Ctrl+Shift+P` to open the command palette.
     - Type `ysyx sdb tui Enable` and press `Enter` to enable the extension. It will open a terminal and focus on it.
     
@@ -109,7 +115,9 @@ Then **clean all** `build` directory and **rebuild**:
 
 4. Type `si 5` test the SDB TUI plugin.
 
-![ysyx-sdb-tui](images/vscode-sdb-tui.png)
+<p align="center">
+  <img src="images/vscode-sdb-tui.png" />
+</p>
 
 5. Close the server after debugging.
     - Type `ysyx sdb tui Disable` and press `Enter` to disable the extension.
