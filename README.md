@@ -5,9 +5,7 @@ A simple c++ `socket.io` client for communicating with `ysyx-sdb-tui` server.
 
 ![ysyx-sdb-tui](images/vscode-sdb-tui.png)
 
-When you use sdb in NEMU or NPC for debugging, it can highlight the specific line in the disassembly file and source file.
-
-It greatly enhances debugging efficiency.
+When you use sdb in NEMU or NPC for debugging, it can highlight the specific line in the disassembly file and source file. It greatly enhances debugging efficiency.
 
 ## Dependencies
 
@@ -94,7 +92,7 @@ In `abstract-machine/Makfile`:
 CFLAGS += O0 -ggdb 
 ```
 
-Then clean **all** `build` directory and **rebuild**:
+Then **clean all** `build` directory and **rebuild**:
 
 - `abstract-machine/build` directory
 - `abstract-machine/am/build` directory
